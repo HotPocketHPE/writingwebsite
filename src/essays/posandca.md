@@ -1,0 +1,27 @@
+---
+title: Parries, Positioning, Card Advantage
+tags: essays
+date: 2024-09-11
+layout: base.njk
+---
+
+
+(Response/Addendum/Addition to https://rexzakel.wordpress.com/2024/09/09/the-parry-epidemic-and-why-im-worried-about-monster-hunter-wilds/ which I edited and is worth reading. Also stealing and restating this twitter thread https://x.com/birthbydrip/status/1833654159872270352)
+
+I will here use "parries" in a general sense to mean centralizing defensive options driven mostly by timing checks. Ex. Sekiro deflect and Bayo Witch Time (as mentioned in the article) but also Dark Souls style iframe dodge roll or even Bayo regular dodge.
+
+Parries overwhelming other mechanics is a problem because they are timing checks which reduce other elements of interaction. I mean "reduce" in a specific mathematical way here, in the sense that one would reduce an equation from three variables to two, where variables like positioning and attack timing are reduced from the game's optimization problem. Common wisdom in fast competitive games is that players should seek to reduce decision points, simplify as much as possible, so as to efficiently target your skill development. For anyone who approaches these SP games with the mindset of long-term winning/improvement, this makes the parry problem actually worse than it appears, because it cuts out the game space in low to mid range skill where parrying is less optimal for winrate.
+
+Parries are also very rarely implemented as elements with variable inputs and outputs. This means you don't get natural dynamism (again think mathematically, chaos theory where small differences cascade into larger ones over time) and will have to bite that bullet, or try and reintroduce it with "brute force" through resource systems etc. which add complexity, can feel artificial, and might fail outright.
+
+What's usually offered as the alternative to parries is "positioning." The reason for this is that it's the default answer both historically and fundamentally. In the former case, there are many examples of successful frameworks, though a lot of them are older given the current state of the genre.
+
+The most pertinent in my view is the Final Fight beat em up framework seen in modern games like Streets of Rage 4 and Fight 'n Rage, where you fight many independent enemies at once with limited screen space. You can preempt attacks by causing hitstun with your hitboxes, usually involving intricate spacing when there are so many threats with overlapping ranges and behaviors. You can gain iframes with throws, but this costs *enemies* as a resource, which ties back into positioning. The only iframes on demand cost significant amounts of health as a resource, a steep price to pay.
+
+On a fundamental level, action games are about entities interacting within a space, in real time. (This is a definition so one should think about its validity, otherwise I am begging the question) Thus to reduce this spatial element too much is wasteful and "unnatural." Moreover positioning has many attractive, intuitive properties that make it a good fit as a foundation. It's intuitive to human psychology, very important for many reasons that are hopefully self-evident. But it's simultaneously rich in complexity, which allows one to create many different interesting and difficult challenges within it. This also allows it to interact with other elements in complicated and interesting ways, the foremost example being timing, the other element from my definition which is itself foundational.
+
+It should be obvious, but timing as such is not a problem, only timing as dominating and simplifying element. What would positioning as dominating and simplifying element look like? One example is shmup safe spots, where reaching a certain location ensures the player cannot be hit, thus "removing the temporal dimension" in a sense. 
+
+The equivalent to positioning in card games such as MTG or Slay the Spire is the deck of cards. Cards offer a similar intuitive foundation which easily creates complex interactions: cards are discrete objects with an ordering in the deck. Then spacing (if we define spacing as accessing and maintaining desirable positions) corresponds to *card advantage*, which is simply having as many cards in your hand as possible. Each card is a potential action, so more of them means the ability to select more actions and actions of higher quality. Valuing this against other independent dimensions such as mana/energy use is a famously deep problem, arguably the lifeblood of these games.
+
+The lifeblood of a beat em up is likewise a competing valuation of spacing versus proactivity: how to stay positioned out of danger while controlling the flow of the encounter by placing hitboxes *before* enemies can place theirs. Brute forcing this optimization (and the card game one) is too hard for humans, so you have to create heuristic frameworks for how you understand and value states of space and states of time, which is what allows the magic "a-ha" moments of rethinking, deep discovery, and intuitive play. Then parries are a castration of this dynamic, trending towards instant simple temporal feedback points at the cost of everything else. 

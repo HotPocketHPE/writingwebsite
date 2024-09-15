@@ -1,0 +1,5 @@
+<ul>
+{%- for review in collections.reviews | reverse -%}
+    <li> <a href={{ review.page.url }}>{{ review.data.title }}</a> - {{review.page.date | formatDate}}</li>
+{%- endfor -%}
+</ul>

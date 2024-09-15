@@ -1,0 +1,5 @@
+<ul>
+{%- for essay in collections.essays | reverse -%}
+    <li> <a href={{ essay.page.url }}>{{ essay.data.title }}</a> - {{essay.page.date | formatDate}}</li>
+{%- endfor -%}
+</ul>
