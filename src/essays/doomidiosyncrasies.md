@@ -1,8 +1,6 @@
 ---
 title: Various Idiosyncracies of Classic Doom
-tags: essays
 date: 2023-11-23
-layout: base.njk
 ---
 
 I've been playing Quake maps recently (quite enjoying myself!), and it's brought me to a realization that classic Doom is more different than alike when compared to most other FPS. Here are some random examples, but this list is by no means exhaustive!

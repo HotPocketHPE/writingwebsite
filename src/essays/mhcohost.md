@@ -1,8 +1,6 @@
 ---
 title: Monster Hunter's Monsters Are Set Up For Success
-tags: essays
 date: 2023-07-21
-layout: base.njk
 ---
 
 A strange property of Monster Hunter, especially old Monster Hunter, is that much of the enjoyment of a fight seemingly does not come from explicit design on the part of the developers. In fact, in some cases (Uragaan comes to mind) I would go further and say that the "designed" elements can be quite poor, yet the fight is still somewhat enjoyable. Why is this?

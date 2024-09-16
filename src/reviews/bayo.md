@@ -1,9 +1,7 @@
 ---
 title: Bayonetta
-tags: reviews
 date: 2024-08-11
-layout: base.njk
-rating: 5
+score: 5
 ---
 
 (NSIC no items. Thanks to all who helped me learn this game)

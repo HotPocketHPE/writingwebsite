@@ -1,10 +1,8 @@
 ---
 title: Parries, Positioning, Card Advantage
-tags: essays
 date: 2024-09-11
-layout: base.njk
 ---
-
+(Unedited idea dump)
 
 (Response/Addendum/Addition to https://rexzakel.wordpress.com/2024/09/09/the-parry-epidemic-and-why-im-worried-about-monster-hunter-wilds/ which I edited and is worth reading. Also stealing and restating this twitter thread https://x.com/birthbydrip/status/1833654159872270352)
 

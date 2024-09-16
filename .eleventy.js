@@ -9,8 +9,21 @@ module.exports = function (eleventyConfig) {
     return "" + y + "-" + (m<=9 ? '0' + m : m) + "-" + d;
   })
 
+  eleventyConfig.addFilter("scoreToStars", function(score) {
+    var fullStars = ["", "★", "★★", "★★★", "★★★★", "★★★★★"];
+    var s = fullStars[Math.floor(score)];
+    if (score % 1 != 0) {
+      s = s + "½"
+    }
+    return s;
+  })
+
+  
+
   return {
     passthroughFileCopy: true,
+    htmlTemplateEngine: "njk",
+    markdownTemplateEngine: "njk",
     dir: {
       input: "src",
       output: "output",
